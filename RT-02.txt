@@ -49,6 +49,7 @@ ipv6 address 2001:db8:faca::2/64
 exit
 ip route 0.0.0.0 0.0.0.0 189.100.0.1
 ipv6 route ::/0 2001:db8:faca::1
+ipv6 unicast-routing 
 end
 write erase
  
